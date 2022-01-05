@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 10px;;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/flagged/photo-1555169048-3c4845cfcf1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    position: relative;
+    top:150px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(248, 255, 254);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.myform input{
+    height: :30px;
+    width:300px;
+    margin-top:30px;
+    padding:10px;
+    outline:none;
+    color:white;
+    border-bottom: 2px solid white;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color:transparent;
+}
+
+.myform .login-btn{
+    height: 30px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(to right, red,rgb(207, 41, 158));
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.myform .SignUp-btn{
+    height: 30px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(to right, red,rgb(207, 41, 158));
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.myform .parola-btn{
+    height: 30px;
+    width: 300px;
+    margin-top: 40px;
+    text-align: center;
+    background-image: linear-gradient(to right, red,rgb(207, 41, 158));
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.myform .login-btn:hover{
+    transform:scale(1.05);
+}
+.myform .SignUp-btn:hover{
+    transform:scale(1.05);
+}
+.myform .parola-btn:hover{
+    transform:scale(1.05);
+}
+
+
+
+.myform a{
+    text-decoration: yellow;
+    margin-top:30px;
+    color:rgb(255, 0, 255);
+    background: rgb(255, 217, 0);
+}
+::-webkit-input-placeholder { 
+    color:    rgb(247, 247, 247);
+    font-size:16px;
+    text-align: center;
+}

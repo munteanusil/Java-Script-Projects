@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+   color: rgb(255, 0, 255);
+}
+
+.header-logo {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background-color: rgb(99, 121, 194);
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+#btnClear {
+    width: 100%;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
